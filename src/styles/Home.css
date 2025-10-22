@@ -1,0 +1,14 @@
+span {
+	font-weight: bold;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.card-content ul {
+	padding-left: 1.25rem;
+}

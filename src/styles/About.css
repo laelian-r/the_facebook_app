@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+	--blue-700: #3b5998;
+	--blue-700-text: white;
+	--blue-500: #538adc;
+	--blue-500-text: white;
+
+	font-family: "source-code-pro", monospace;
+	/* font-size: 11px; */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+main {
+	display: flex;
+	align-items: start;
+	padding: 5px;
+	gap: 5px;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 24px;
+	width: 220px;
+}
+
+aside form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.window {
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.text-h2 {
+	/* font-size: 1.09rem; */
+	font-weight: normal;
+}
+
+.blue-500-text {
+	color: var(--blue-500) !important;
+}

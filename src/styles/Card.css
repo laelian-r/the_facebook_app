@@ -1,0 +1,39 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	border: thin solid var(--blue-700);
+	gap: 12px;
+	width: 100%;
+}
+
+.card .titre {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--blue-700);
+	color: var(--blue-700-text);
+	padding: 4px 2px;
+}
+
+.card .no-title {
+	display: none;
+}
+
+.card:has(.no-title) {
+	border: 1px dashed var(--blue-700);
+}
+
+.card .card-content .grille {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	gap: 24px;
+	margin: 4px 0;
+}
+
+.card .card-content {
+	padding: 1rem;
+}
+
+h3 {
+	margin: 0;
+}

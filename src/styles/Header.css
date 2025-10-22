@@ -1,0 +1,28 @@
+header {
+	background-color: var(--blue-700);
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	margin-bottom: 3px;
+}
+
+.image-left {
+	height: 100%;
+}
+
+.image-right nav ul {
+	display: flex;
+	gap: 2rem;
+}
+
+.image-right nav ul li {
+	list-style: none;
+}
+
+.image-right nav ul li a {
+	color: var(--blue-700-text);
+	text-decoration: none;
+	font-size: 1.09rem;
+	font-weight: normal;
+	padding: 0.5rem 0;
+}

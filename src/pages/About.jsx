@@ -1,8 +1,7 @@
 import "../styles/About.css";
 
-import Header from "../components/Header";
 import Card from "../components/Card";
-import Footer from "../components/Footer";
+import Button from "../components/Buttons";
 
 export default function About() {
 	let people = [
@@ -40,6 +39,8 @@ export default function About() {
 							</div>
 						))}
 					</Card>
+
+					<Button text="Home" href="/" />
 				</Card>
 			</div>
 		</>

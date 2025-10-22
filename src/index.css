@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+	--blue-700: #3b5998;
+	--blue-700-text: white;
+	--blue-500: #538adc;
+	--blue-500-text: white;
+	--gray: #d9dfea;
+
+	font-family: "source-code-pro", monospace;
+	/* font-size: 11px; */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}

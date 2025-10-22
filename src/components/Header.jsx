@@ -2,6 +2,7 @@ import "../styles/Header.css";
 
 import ImageHeader from "../assets/images/image_header.jpg";
 import TitreHeader from "../assets/images/titre_header.jpg";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
 	return (
@@ -9,17 +10,19 @@ export default function Header() {
 			<header className="header">
 				<img className="image-left" src={ImageHeader} alt="image header" />
 				<div className="image-right">
-					<img src={TitreHeader} alt="image titre header" />
+					<NavLink to="/">
+						<img src={TitreHeader} alt="image titre header" />
+					</NavLink>
 					<nav>
 						<ul>
 							<li>
-								<a href="/">login</a>
+								<NavLink to="/">login</NavLink>
 							</li>
 							<li>
-								<a href="/">register</a>
+								<NavLink to="/">register</NavLink>
 							</li>
 							<li>
-								<a href="/about">about</a>
+								<NavLink to="/about">about</NavLink>
 							</li>
 						</ul>
 					</nav>

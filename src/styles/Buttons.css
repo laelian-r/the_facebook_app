@@ -1,0 +1,19 @@
+.buttons-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+button,
+.link {
+	background-color: var(--blue-500);
+	border: none;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	color: var(--blue-500-text);
+	padding: 1px 6px;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+}

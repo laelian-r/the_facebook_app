@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "../styles/Footer.css";
 
 export default function Footer() {
@@ -6,19 +7,19 @@ export default function Footer() {
 			<nav>
 				<ul>
 					<li>
-						<a href="/">about</a>
+						<NavLink to="/about">about</NavLink>
 					</li>
 					<li>
-						<a href="/">contact</a>
+						<NavLink to="/contact">contact</NavLink>
 					</li>
 					<li>
-						<a href="/">faq</a>
+						<NavLink to="/">faq</NavLink>
 					</li>
 					<li>
-						<a href="/">terms</a>
+						<NavLink to="/">terms</NavLink>
 					</li>
 					<li>
-						<a href="/">privacy</a>
+						<NavLink to="/">privacy</NavLink>
 					</li>
 				</ul>
 			</nav>

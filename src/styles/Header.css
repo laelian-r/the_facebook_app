@@ -22,7 +22,6 @@ header {
 .image-right nav ul li a {
 	color: var(--blue-700-text);
 	text-decoration: none;
-	font-size: 1.09rem;
 	font-weight: normal;
 	padding: 0.5rem 0;
 }

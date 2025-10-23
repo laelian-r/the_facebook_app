@@ -20,8 +20,8 @@ export default function Register() {
 						<div className="block-label">
 							<label htmlFor="name">Name:</label>
 							<label htmlFor="status">Status:</label>
-							<label htmlFor="email2">Email (harvard):</label>
-							<label htmlFor="password2">Password*: (not fas)</label>
+							<label htmlFor="email">Email (harvard):</label>
+							<label htmlFor="password">Password*: (not fas)</label>
 						</div>
 
 						<div className="block-input">
@@ -31,8 +31,8 @@ export default function Register() {
 								<option value="2">Status 2</option>
 								<option value="3">Status 3</option>
 							</select>
-							<Button type="email" id="email2" name="email2" />
-							<Button type="password" id="password2" name="password2" />
+							<Button type="email" id="email" name="email" />
+							<Button type="password" id="password" name="password" />
 						</div>
 					</div>
 

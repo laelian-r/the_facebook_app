@@ -13,11 +13,11 @@ export default function Layout({ children }) {
 				<aside>
 					<Card>
 						<form action="/">
-							<label htmlFor="email2">Email</label>
-							<Button type="email" id="email" name="email" />
+							<label htmlFor="email">Email</label>
+							<Button type="email" id="email2" name="email2" />
 
 							<label htmlFor="password">Password</label>
-							<Button type="password" id="password" name="password" />
+							<Button type="password" id="password2" name="password2" />
 
 							<div className="buttons-container">
 								<Button text="login" />

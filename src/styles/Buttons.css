@@ -6,7 +6,8 @@
 }
 
 button,
-.link {
+.link,
+input[type="submit"] {
 	background-color: var(--blue-500);
 	border: none;
 	border-right: 1px solid black;

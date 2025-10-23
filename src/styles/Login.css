@@ -1,0 +1,30 @@
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+}
+
+.labels-inputs-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 40%;
+}
+
+.block-label,
+.block-input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 12px;
+}
+
+.block-label label {
+	width: auto;
+	text-align: left;
+	font-weight: bold;
+}

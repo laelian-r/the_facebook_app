@@ -16,10 +16,10 @@ export default function Header() {
 					<nav>
 						<ul>
 							<li>
-								<NavLink to="/">login</NavLink>
+								<NavLink to="/login">login</NavLink>
 							</li>
 							<li>
-								<NavLink to="/">register</NavLink>
+								<NavLink to="/register">register</NavLink>
 							</li>
 							<li>
 								<NavLink to="/about">about</NavLink>

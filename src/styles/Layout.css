@@ -6,4 +6,5 @@ label {
 input {
 	background-color: var(--gray);
 	border: 1px solid var(--blue-500);
+	width: 100%;
 }

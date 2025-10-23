@@ -7,7 +7,7 @@ export default function Button({ text, href, type, id, name, ...restProps }) {
 			{!href ? (
 				<>
 					{type ? (
-						<input type={type} id={id} name={name} />
+						<input type={type} id={id} name={name} value={text} />
 					) : (
 						<button {...restProps}>{text}</button>
 					)}

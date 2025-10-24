@@ -1,11 +1,10 @@
 import "../styles/Login.css";
 
+import { useNavigate, Navigate } from "react-router-dom";
+import { useAuth } from "../hooks/useAuth";
+
 import Card from "../components/Card";
 import Button from "../components/Buttons";
-// import { redirect } from "react-router-dom";
-import { useNavigate, Navigate } from "react-router-dom";
-
-import { useAuth } from "../hooks/useAuth";
 
 // ...existing code...
 export default function Login() {
@@ -35,8 +34,16 @@ export default function Login() {
 					<h1>[ Login ]</h1>
 
 					<form onSubmit={signUser}>
-						<input type="email" name="email" id="email" />
-						<input type="password" name="password" id="password" />
+						<div className="labels-inputs-container">
+							<div className="block-label">
+								<label htmlFor="email">Email :</label>
+								<label htmlFor="password">Password</label>
+							</div>
+							<div className="block-input">
+								<input type="email" name="email" id="email" />
+								<input type="password" name="password" id="password" />
+							</div>
+						</div>
 						<div className="buttons-container">
 							<Button type="submit" text="login" />
 							<Button text="register" />
